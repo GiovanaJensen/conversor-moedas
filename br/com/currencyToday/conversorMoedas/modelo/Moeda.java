@@ -1,4 +1,6 @@
-public class Moeda{
+package br.com.currencyToday.conversorMoedas.modelo;
+
+public abstract class Moeda{
     protected String nome;
     protected double valor;
 
