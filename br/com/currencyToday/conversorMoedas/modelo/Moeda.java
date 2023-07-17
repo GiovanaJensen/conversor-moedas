@@ -8,9 +8,7 @@ public abstract class Moeda{
         this.nome = nome;
     }
 
-    public void setValor(double valor){
-        this.valor = valor;
-    }
+    abstract public void setValor(double valor);
 
     public double getValor(){
         return this.valor;
