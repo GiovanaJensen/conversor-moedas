@@ -11,7 +11,7 @@ public class TelaValor{
                     TelaEscolha telaEscolha = new TelaEscolha();
                     telaEscolha.showTelaMoedas(valor);
                 }catch(NumberFormatException error){
-                    System.out.println("Valor inserido é inválido! Digite um número por favor!");
+                    JOptionPane.showMessageDialog(null, "Valor Inválido!", "Message", JOptionPane.ERROR_MESSAGE);
                     showTelaValor();
                 }
             }
